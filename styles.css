@@ -12,12 +12,12 @@ html, body {
 }
 
 #nav{
-    height: 145px;
+    height: 135px;
     width: 100%;
     /* background-color: aqua; */
     display: flex;
     align-items: center;
-    padding: 0 150px;
+    padding: 0 130px;
     gap: 45px;
     position: fixed;
     justify-content: flex-start;
@@ -41,7 +41,7 @@ video {
 
 #main{
     position: relative;
-    background-color: rgba(0, 0, 0,0.37);
+    background-color: rgba(0, 0, 0,0.39);
 
 }
 
@@ -54,6 +54,7 @@ video {
     justify-content:center;
     flex-direction: column;
     text-align: center;
+    
 }
 
 #page1 h1{

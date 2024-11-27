@@ -1,8 +1,13 @@
 var crsr = document.querySelector("#cursor")
+var blur1 = document.querySelector("#blurcursor")
 document.addEventListener("mousemove",function(dets){
     crsr.style.left = dets.x+"px"
-    crsr.style.top= dets.y+"px"  
+    crsr.style.top= dets.y+"px" 
+    blur1.style.left = dets.x - 200 + "px"
+    blur1.style.top= dets.y - 200 +"px" 
 })
+
+
 
 gsap.to("#nav",{
     backgroundColor:"#000",
@@ -16,7 +21,6 @@ gsap.to("#nav",{
         start:"top -10%",
         end:"top -11%",
         scrub:1,
-
     }
 })
 

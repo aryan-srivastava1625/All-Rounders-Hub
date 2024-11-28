@@ -298,3 +298,36 @@ background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,37
     object-fit: cover;
     width: 15%;
 }
+
+#page-3{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-3 p{
+    font-size: 30px;
+    font-weight: 700;
+    width: 55%;
+    text-align: center;
+    line-height: 40px;
+}
+
+#page-3 img{
+    position: absolute;
+    height: 60px;
+}
+
+#page-3 #colon1{
+    left:17%;
+    top:27%;
+}
+
+#page-3 #colon2{
+    right:18%;
+    bottom:28%;
+}

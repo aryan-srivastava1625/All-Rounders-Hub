@@ -271,3 +271,30 @@ video {
     transform: rotate3d(-1,1,0,20deg);
 }
 
+#green-div{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #85A98F; */
+    /* background: linear-gradient(to left bottom, white,#000); */
+    /* background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%); */
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,37,78,1) 0%, rgba(4,56,126,1) 19.7%, rgba(85,245,221,1) 100.2% );
+}
+
+#green-div h4{
+    width: 45%;
+    line-height: 40px;
+    color: #000;
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#green-div img{
+    height: 100%;
+    object-fit: cover;
+    width: 15%;
+}

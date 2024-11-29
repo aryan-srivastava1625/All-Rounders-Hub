@@ -50,9 +50,9 @@ gsap.to("#main",{
     }
 })
 
-gsap.to("#aboutus img,#aboutus1", {
-    y: 90,
-    opacity: 0,
+gsap.from("#aboutus img,#aboutus1", {
+    x: 90,
+    opacity:0,
     duration: 1,
     scrollTrigger: {
       trigger: "#aboutus",
@@ -60,8 +60,47 @@ gsap.to("#aboutus img,#aboutus1", {
       // markers:true,
       start: "top 70%",
       end: "top 65%",
-      scrub: 1,
+      scrub: 2,
     },
   });
   
+  gsap.from(".c1", {
+    scale:0.8,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".c1",
+      scroller: "body",
+      // markers:true,
+      start: "top 70%",
+      end: "top 65%",
+      scrub: 2,
+    },
+  });
+
+  gsap.from("#colon1",{
+    y:-70,
+    x:-70,
+    scrollTrigger:{
+      trigger:"#colon1",
+      scroller:"body",
+      // markers:true,
+      start:"top 54%",
+      end:"top 45%",
+      scrub:5,
+    }
+  })
+
+  gsap.from("#colon2",{
+    y:70,
+    x:70,
+    scrollTrigger:{
+      trigger:"#colon1",
+      scroller:"body",
+      // markers:true,
+      start:"top 54%",
+      end:"top 45%",
+      scrub:5,
+    }
+  })
 

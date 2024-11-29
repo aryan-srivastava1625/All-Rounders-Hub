@@ -104,3 +104,15 @@ gsap.from("#aboutus img,#aboutus1", {
     }
   })
 
+  gsap.from("#page-4 h1",{
+    y:50,
+    scrollTrigger:{
+      trigger:"#page-4 h1",
+      scroller:"body",
+      // markers:true,
+      start:"top 75%",
+      end:"top 70%",
+      scrub:3,
+    }
+  })
+

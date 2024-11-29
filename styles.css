@@ -336,8 +336,62 @@ background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,37
 
 
 #page-4{
-    height: 50vh;
+    height: 30vh;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    position: relative;
 
+
+}
+
+#page-4 h1{
+    font-size: 112px;
+    position: absolute;
+    top:-20%;
+    font-weight: 900;
+    font-family: gilroy;
+    -webkit-text-stroke:2px black ;
+    
+}
+
+.elem{
+    height: 70%;
+    width: 20%;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.elem h2{
+    height: 100%;
+    width: 100%;
+    background-color: #edb827;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    transition:all ease 0.5s;
+    color: #000;
+    font-weight: 800;
+    position: absolute;
+    z-index: 10;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+}
+
+.elem:hover h2{
+    color: #fff;
+    background-color: transparent;
+}
+
+.elem:hover img{
+    scale: 1;
 }

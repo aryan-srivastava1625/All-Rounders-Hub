@@ -1,5 +1,8 @@
 # All-Rounders Hub
 
+![frontpage](https://github.com/user-attachments/assets/a8f2e60c-bd79-4c14-b45d-bcef39ccd0e5)
+
+
 ## Overview
 **All-Rounders Hub** is an interactive and feature-rich web platform that brings cricket enthusiasts together. Designed with a passion for the game, it allows users to play, learn, and compete, while fostering a vibrant community of cricket lovers.
 
